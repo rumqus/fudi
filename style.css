@@ -1,0 +1,461 @@
+*{
+margin:0;
+padding:0;
+
+}
+
+
+
+.header {
+background-image:url(img/rcpt_main.jpg);
+height:800px;
+background-size:cover;
+background-position:left 37%  center;position:relative;
+padding-top:20px;
+
+}
+
+
+
+.gradient {
+
+
+width:100%;
+background-image:url(img/top_gradient.png);
+background-repeat:repeat-x;
+min-height:227px;
+position:absolute;
+bottom:0;
+}
+
+
+.logo img{
+
+width:100px;
+
+}
+
+.top_line {
+
+display:table;
+margin-left:12%;
+margin-right:12%;
+width:76%;
+vertical-align: top;
+}
+
+.img_container {
+
+display:table-cell;
+
+
+}
+
+.menu {
+
+float:right;
+display:table-cell;
+margin-bottom:65px;
+}
+
+.menu_ul {
+
+text-decoration:none;
+color:white;
+
+
+}
+
+ul {
+list-style-type:none;
+
+
+}
+.ul_li {
+text-decoration:none;
+text-transform:uppercase;
+font-family: 'Lato', sans-serif;
+color:white;
+display:inline;
+font-size:14px;
+font-weight:bold;
+margin-left:10px;
+float:right;
+
+}
+
+.header_text {
+text-align:center;
+width:100%;
+height:60%;
+
+margin:0 auto;
+position:absolute;
+bottom:0;
+}
+
+
+.top_italic {
+
+font-family: 'Times New Roman', sans-serif;
+font-style: italic;
+color:white;
+font-size:1.6em;
+
+opacity:0.7;
+
+}
+
+.main_big {
+
+font-size:5em;
+color:white;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+text-transform:uppercase;
+margin-bottom:25px;
+}
+
+.button {
+
+border:2px solid white;
+border-radius:5px;
+color:white;
+width:25%;
+margin:0 auto;
+line-height:3em;
+margin-bottom:25px;
+font-size:1.3em;
+}
+
+
+.bottom_small {
+
+font-size:1em;
+font-family: 'Lato', sans-serif;
+text-transform:uppercase;
+color:white;
+margin-bottom:25px;
+}
+
+
+.main_content {
+
+position:relative;
+
+display:table;
+margin-left:12%;
+margin-right:12%;
+width:76%;
+
+
+
+}
+
+.first_section,
+.second_section,
+.third_section {
+margin-top:100px;
+float:left;	
+width:100%;	
+}
+
+.first,
+.second,
+.third
+{
+display:table-cell;
+text-align:center;
+float:left;
+width:33%;
+margin-top:20px;
+
+}
+
+
+
+h3 {
+
+font-family: 'Lato', sans-serif;
+color:black;
+font-size:18px;
+text-transform:uppercase;
+	
+}
+
+.line {
+border:1px solid #f57365;	
+margin-top:10px;
+margin-right:40%;
+margin-left:40%;
+}
+
+
+.text {
+	
+font-size:16px;
+font-family: 'Lato', sans-serif;	
+color:#888888;
+}
+
+.light {
+	
+
+font-weight:300;
+}
+
+
+
+.second_section {
+background:#f7f7f7;	
+display:table;	
+position:relative;
+}
+
+
+.telephone {
+margin-top:100px;
+width:50%;
+display:table-cell;	
+float:left;
+
+}
+
+.text_description {
+width:40%;
+display:table-cell;
+float:right;
+margin-left:100px;
+margin-top:100px;
+font-size:16px;	
+}
+
+.line2 {
+	
+margin-bottom:20px;	
+	
+}
+
+.wraper {
+width:76%;	
+position:relative;	
+margin-left:12%;
+margin-right:12%;	
+}
+.rectangle {
+
+text-align:center;
+width:100%;
+background-image:url(img/rectangle.jpg);
+
+height:462px;
+position:absolute;
+bottom:-280px;
+
+}
+
+.portret {
+margin-top:80px;	
+margin-bottom:30px;	
+	
+}
+
+.portret_text {
+color:#7a6e7a;
+font-size:22px;
+font-family: 'Lato', sans-serif;
+	
+	
+}
+
+.portret_text_podpis {
+	
+color:#7a6e7a;
+font-size:18px;
+font-family: 'Lato', sans-serif;
+}
+
+.third_section{
+
+margin-top:320px;
+
+
+}
+
+.like_first {
+text-align:center;
+
+
+}
+
+
+.collazh_foto {
+position:relative;
+display:table;
+margin-top:40px;
+text-align:center;
+width:100%;
+
+}
+.foto,
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8,
+.foto9,
+.foto10 {
+
+width:20%;
+height:233px;
+background-size:cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+border-collapse:collapse;
+display:table-sell;
+float:left;
+position:relative;
+text-align:center;
+}
+
+
+
+
+.row {
+display:table-row;
+
+}
+.foto1{
+background-image: url(img/italian.png);
+}
+.foto2{
+background-image: url(img/indian.png);
+}
+.foto3{
+background-image: url(img/french.png);
+}
+.foto4{
+background-image: url(img/steak.png);
+}
+.foto5{
+background-image: url(img/seafood.png);
+}
+.foto6{
+background-image: url(img/sushi.png);
+}
+.foto7{
+background-image: url(img/mexican.png);
+}
+.foto8{
+background-image: url(img/chinese.png);
+}
+.foto9{
+background-image: url(img/pizza.png);
+}
+.foto{
+background-image: url(img/burger1.png);
+}
+
+.cifri {
+display:table;
+padding-right:12%;
+padding-left:12%;
+width:100%;
+margin-top:60px;
+margin-bottom:60px;
+position:relative;
+float:left;
+}
+
+.cifra {
+
+display:table-cell;
+text-align:center;
+width:20%;
+float:left;
+position:relative;
+height:200px;
+}
+
+.big_cifra {
+
+font-size:40px;
+color:black;
+font-weight:bold;
+font-family: 'Lato', sans-serif;
+
+
+}
+
+.description_cifra {
+
+font-weight:300;
+
+}
+
+
+
+.footer {
+display:table-row;
+float:left;
+border-top:1px solid #e2e2e2;
+background:#f7f7f7;
+height:100px;
+width:100%;
+text-align:center;
+
+}
+
+.footer p {
+
+margin-top:40px;
+font-weight:300;
+font-family: 'Lato', sans-serif;
+font-size:16px;
+color:#c1c1c1;
+}
+
+@media screen and (max-width: 1320px) {
+    .second_section {
+        display:none;
+}
+
+
+
+}
+
+@media screen and (max-device-width: 800px) {
+.foto,
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8,
+.foto9,
+.foto10 {
+
+width:50%;
+
+}
+
+}
+
+
+
+@media screen and (max-device-width: 800px) {
+.cifra {
+
+width:50%;
+
+
+}
+
+}
+
+
